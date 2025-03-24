@@ -1,0 +1,80 @@
+1.1
+a. Programs
+b. Input unit, Output unit, Arithmetic and logic unit, Central Processing unit Memory unit, Secondary storage unit
+c. Machine language, high level language, assembly language
+d. Compilers
+e. Android
+f. Stable
+g. Accelerometer
+
+1.2
+a. java
+b. javac
+c. .java
+d. .class
+e. bytecodes
+
+1.3
+a. Encapsulation
+b. Classes
+c. Object- Oriented analysis
+d. Inheritance
+e. Unified Modeling Language
+f. Attributes
+
+1.4
+a. Input unit
+b. Programming
+c. Assembly language
+d. Output unit
+e. Memory Unit, Secondary Storage Unit
+f. Arithmetic And Logic Unit
+g. Control Unit
+h. High-level languages
+i. Machine Language
+j. CPU
+
+1.5
+a. Java
+b. C
+c. TCP
+d. C++
+
+1.6
+a. Edit, compile, load, verify, execute
+b. IDE
+c. Java Virtual Machine
+d. Virtual Machine
+e. Class loader
+f. Bytecode verifier
+
+1.7
+
+The original code is compiled into bytecode and then the java virtual machine compiles it into machine code and then executes it
+
+1.8
+
+Object: A watch is an object with distinct properties.
+Attributes: Time, date, brand, battery life.
+Behaviors: Ticking, displaying time, alarm ringing.
+Class: General category of watches.
+Inheritance: Alarm clocks inherit from basic watches but add alarm functionality.
+Modeling: Represents watches digitally.
+Messages: User interacts by setting time, alarm, etc.
+Encapsulation: Inner mechanisms are hidden from the user.
+Interface: Buttons, screen.
+Information hiding: Internal clockwork is hidden from the user.
+
+1.11
+
+Fuel efficiency
+Battery type
+Battery weight
+Charging time
+Electric-only range
+Engine type
+
+1.12
+
+Read the text and search for gendered words using a dictionary ,then replace those words with alternatives and then avoiding errors, then print the text
+

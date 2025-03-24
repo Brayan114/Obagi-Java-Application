@@ -1,0 +1,119 @@
+2.1
+
+a) An '{' begins the body of every method, and an '}' ends the body of every method.
+b) You can use the if statement to make decisions.
+c) // begins an end-of-line comment.
+d) Spaces, tabs, and newlines are called white space.
+e) Keywords are reserved for use by Java.
+f) Java applications begin execution at method main.
+g) Methods System.out.print, System.out.println, and System.out.printf display information in a command window.
+
+2.2
+
+a) False – Comments are ignored by the computer.
+b) True
+c) False – Java is case-sensitive, so number and NuMbEr are different variables.
+d) False – The remainder operator (%) works with floating-point numbers too.
+e) False – *, /, and % have higher precedence than + and -.
+
+2.4
+
+a) if (c < 7) System.out.println("c is less than 7"); 
+b) if (c >= 7) System.out.println("c is equal to or greater than 7");
+
+2.5
+import java.util.Scanner;
+
+public class ProductCalculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int x, y, z, result;
+
+        System.out.print("Enter first integer: ");
+        x = input.nextInt();
+
+        System.out.print("Enter second integer: ");
+        y = input.nextInt();
+
+        System.out.print("Enter third integer: ");
+        z = input.nextInt();
+
+        result = x * y * z;
+        System.out.printf("Product is %d%n", result);
+    }
+}
+
+2.7
+
+a) Comments are used to document a program and improve its readability.
+b) A decision can be made in a Java program with an if statement.
+c) Calculations are normally performed by expression statements.
+d) The arithmetic operators with the same precedence as multiplication are / and %.
+e) When parentheses in an arithmetic expression are nested, the innermost set of parentheses is evaluated first.
+f) A location in the computer’s memory that may contain different values at various times is called a variable.
+
+2.8
+
+// a) Display message without new line
+System.out.print("Enter an integer: ");
+
+// b) Assign product of b and c to a
+a = b * c;
+
+// c) Comment for payroll calculation
+// This program performs a sample payroll calculation
+
+
+2.9
+
+a) False – Operator precedence determines evaluation.
+b) True
+c) False – Operators follow precedence rules, not just left-to-right evaluation.
+d) True – Variable names cannot start with numbers.
+
+2.10
+int x = 2, y = 3;
+System.out.printf("x = %d%n", x); // Output: x = 2
+System.out.printf("Value of %d + %d is %d%n", x, x, (x + x)); // Output: Value of 2 + 2 is 4
+System.out.printf("x ="); // Output: x =
+System.out.printf("%d = %d%n", (x + y), (y + x)); // Output: 5 = 5
+
+2.11
+Modified variables:
+p = i + j + k + 7;
+value = input.nextInt();
+
+2.12
+
+Correct expressions for y = ax³ + 7:
+y = a * x * x * x + 7;
+y = a * (x * x * x) + 7;
+y = (a * x) * x * x + 7;
+Incorrect: y = a * x * x * (x + 7);
+
+2.13
+
+a) x = 7 + 3 * 6 / 2 - 1; → 15
+b) x = 2 % 2 + 2 * 2 - 2 / 2; → 3
+c) x = (3 * 9 * (3 + (9 * 3 / 3))); → 324
+
+2.14
+
+// a) Using one println
+System.out.println("1 2 3 4");
+
+// b) Using multiple print statements
+System.out.print("1 ");
+System.out.print("2 ");
+System.out.print("3 ");
+System.out.print("4");
+
+// c) Using printf
+System.out.printf("%d %d %d %d%n", 1, 2, 3, 4);
+
+2.15
+
+
+
+
+
