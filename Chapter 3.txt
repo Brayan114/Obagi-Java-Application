@@ -1,0 +1,9 @@
+3.10 Compare if and while (Theory)
+'if' is a single-selection control statement that executes a block of code once if the condition is true.
+'while' is a looping control statement that keeps executing a block of code as long as the condition remains true.
+
+
+3.12 Control statement combination (Theory)
+Control statements can be combined using:
+1. Nesting: Placing one statement inside another (e.g., if inside a loop).
+2. Stacking: Writing multiple statements sequentially.
